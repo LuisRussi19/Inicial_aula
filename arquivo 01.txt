@@ -35,7 +35,22 @@ Para enviá-lo ao arquivo na pasta, basta inserir o comando na BASH
 _o arquivo modificado na página do Github, é inserido no arquivo local.
 
 
- 
+ +++++++++++++++++++++++++++Trabalhando com Branch++++++++++
+São ramificações da main, mas que não alteram o arquivo principal, de modo que outros autores não sejam prejudicados
+
+no GitBASH
+
+1 - git branch ramo01
+_Cria a branch com nome ramo01
+
+2 - git branch
+_Mostra as branchs disponíveis
+
+3 - git checkout ramo01
+_Entra na branch em questão
+
+
+
 
 
 
