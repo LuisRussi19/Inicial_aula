@@ -53,6 +53,10 @@ _Entra na branch em questão
 
 alterações na branch ramo01 pelo vscode
 
+4 - git merge ramo01
+_para levar as alterações da branch ramo01 para a branch main, devo estar dentro da branch na qual quero receber as alterações, nesse caso estando na main, coloco o código
+
+
 
 
 
