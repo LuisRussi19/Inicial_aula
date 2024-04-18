@@ -1,12 +1,41 @@
-Novo arquivo versão 1
-Arquivo editado pelo Github
++++++++++++++ Criando Repositório a partir do Github+++++++++
 
-Inserir mais texto - Versão 2
+Na aba YOUR PROFILE -> REPOSITORIES -> NEW ->(Nomear)
+Clicar sobre o repositório criado e ir em <>CODE -> HTTPS (Copiar endereço)
+Na pasta criada no pc para inserir os arquivos, clicar com botão direito -> Open Git BASH* here (*Terminal do Guthub) 
+1 - git clone (endereço copiado do repositório)
+_Aqui ele vai clonar o repositório para a pasta criada no pc. _Criando uma pasta .git(geralmetne está oculta).
 
-Inserindo comando no Git BASH
-Colocar os comando aqui:
-1 - 
-2 - 
-3 - 
+
+Na pasta do pc, é possível inserir novos arquivos, como por exemplo, um arquivo .txt
+
+Após inserir o arquivo .txt, ir no Bash e inserir o comando
+
+2 - git status
+_como houve adição arquivo, ele aparece a frase: untracked files: 
+_para inserir o arquivo no git, deve-se usar o comando
+
+3 - git add .
+_após esse comando, o arquivo vai para a área de preparação, sendo necessário realizar o comando a seguir:
+
+4 - git commit -m "Comentário sobre a versão salva"
+_após esse comando, o arquivo está salvo e pronto para ser enviado ao repositório.
+
+5 - git log
+_apresenta o log das versões, como data, autor e mensagem do commit
+
+6 - git push origin main
+_envia os arquivos da pasta do pc para o repositório no Github (upload dos arquivos para a nuvem)
+
+
+No Github, é possível editar os arquivos, como por exemplo, o arquivo .txt
+Para enviá-lo ao arquivo na pasta, basta inserir o comando na BASH
+
+7 - git pull origin main
+_o arquivo modificado na página do Github, é inserido no arquivo local.
+
+
+ 
+
 
 
