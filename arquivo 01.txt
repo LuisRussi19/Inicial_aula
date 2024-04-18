@@ -1,2 +1,12 @@
 Novo arquivo versão 1
 Arquivo editado pelo Github
+
+Inserir mais texto - Versão 2
+
+Inserindo comando no Git BASH
+Colocar os comando aqui:
+1 - 
+2 - 
+3 - 
+
+
